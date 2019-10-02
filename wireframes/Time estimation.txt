@@ -1,0 +1,10 @@
+Time estimation
+
+Header: 3 hrs
+Sliders: 4 hrs
+Body: 10hrs
+Footer: 3hrs
+Research: 5hrs
+Testing: 2hrs
+
+Total: 28hrs

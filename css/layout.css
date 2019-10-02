@@ -76,7 +76,6 @@
 .large-slider-image {
   float: left;
   width: 82.906%;
-  max-height: 127px;
   background-color: #ff9b9b;
 }
 .large-slider-image img {
@@ -92,7 +91,7 @@
   display: none;
 }
 .large-slider-bot-section span {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .slider-index-left {
@@ -436,7 +435,6 @@ a.category-list {
   margin-bottom: 30px;
   padding: 20px 20px 0 20px;
   display: none;
-  display: none;
 }
 
 .instagram-heading,
@@ -484,7 +482,7 @@ a.category-list {
 }
 
 .social-media-body .recent-post-social-bar {
-  width: 60%;
+  width: 72%%;
 }
 
 .social-media-body .recent-post-social-bar li {
@@ -700,8 +698,13 @@ a.category-list {
   .footer {
     margin-bottom: 10px;
   }
+  .small-post-icon-right,
+  .medium-post-icon-right,
+  .icon-right {
+    width: 130px;
+  }
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   /* .main-wrapper {
   }
   .aligned-wrapper {
@@ -727,6 +730,10 @@ a.category-list {
 
   .nav-menu-bar {
     margin: 0px 10%;
+  }
+
+  .search-bar {
+    display: block;
   }
 
   .nav-social-bar {
@@ -807,7 +814,7 @@ a.category-list {
   }
 
   .icon-right {
-    width: 27.69%;
+    width: 230px;
   }
 
   .small-recent-posts {
@@ -834,7 +841,7 @@ a.category-list {
   }
 
   .small-post-icon-right {
-    width: 62.1%;
+    width: 220px;
   }
   .medium-recent-post {
     margin-bottom: 30px;
@@ -842,15 +849,18 @@ a.category-list {
 
   .medium-recent-post-image {
     position: relative;
-    width: 33.4828%;
   }
 
   .medium-recent-post-description {
-    width: 58.5057%;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 10px;
   }
 
   .medium-post-icon-right {
-    width: 44.2%;
+    width: 220px;
   }
 
   .medium-recent-post .continue-reading {
@@ -880,7 +890,7 @@ a.category-list {
     width: 248px;
     height: 248px;
     border: 1px solid #ffb79b;
-    margin: 10px;
+    margin: 6px;
   }
 
   .categories {
@@ -938,5 +948,50 @@ a.category-list {
 
   .footer-right {
     width: 31.6239%;
+    float: right;
+  }
+}
+
+@media (min-width: 1206px) {
+  .main-wrapper {
+    min-width: 1206px;
+  }
+
+  .aligned-wrapper {
+    width: 75.375em;
+  }
+
+  .large-slider-top-section {
+    width: 100%;
+  }
+
+  .medium-recent-post-image {
+    width: 33.4828%;
+    height: 240px;
+  }
+  .medium-recent-post-description {
+    width: 59%;
+  }
+  .medium-recent-post-image img {
+    height: 240px;
+  }
+
+  .footer-left {
+    margin-bottom: 30px;
+  }
+
+  .pic-250x250 {
+    display: block;
+  }
+  .categories {
+    display: block;
+  }
+
+  .instagram {
+    display: block;
+  }
+
+  .social-media {
+    display: block;
   }
 }

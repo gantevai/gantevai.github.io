@@ -238,7 +238,7 @@ h2.category-heading {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   h1.header-1 {
     font-size: 17px;
     padding-top: 10px;
@@ -260,7 +260,7 @@ h2.category-heading {
 
   .nav-menu-bar li,
   .nav-social-bar li {
-    line-height: 40px;
+    line-height: 50px;
   }
 
   .nav-social-bar li {
@@ -269,11 +269,11 @@ h2.category-heading {
 
   .nav-menu-bar li a,
   .nav-social-bar li a {
-    font-size: 10px;
-    padding: 0 7px;
+    font-size: 12px;
+    padding: 0 8px;
   }
   .search-field {
-    width: 65%;
+    width: 69%;
     height: 50px;
   }
   .search-btn {
@@ -300,7 +300,16 @@ h2.category-heading {
     width: 30px;
     margin-top: 5px;
   }
-  .small-post-icon-right {
-    width: 63.1%;
+
+  .read-more-btn {
+    height: 41px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1206px) {
+  .nav-menu-bar li a,
+  .nav-social-bar li a {
+    padding: 0 14px;
   }
 }
