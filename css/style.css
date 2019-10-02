@@ -310,6 +310,6 @@ h2.category-heading {
 @media (min-width: 1206px) {
   .nav-menu-bar li a,
   .nav-social-bar li a {
-    padding: 0 14px;
+    padding: 0 12px;
   }
 }
