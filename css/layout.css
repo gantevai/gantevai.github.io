@@ -379,14 +379,17 @@
 
 .popular-post-list {
   float: left;
+  width: 100%;
   margin-bottom: 20px;
   padding-top: 20px;
 }
 
-.popular-post-image img {
+.popular-post-image {
   float: left;
   width: 30.4348%;
-  height: 50px;
+}
+.popular-post-image img {
+  width: 100%;
 }
 .popular-post-description {
   float: right;
@@ -482,7 +485,7 @@ a.category-list {
 }
 
 .social-media-body .recent-post-social-bar {
-  width: 72%%;
+  width: 72%;
 }
 
 .social-media-body .recent-post-social-bar li {
@@ -537,7 +540,7 @@ a.category-list {
   position: absolute;
   background: url(../images/up-arrow.png);
   top: 2px;
-  right: 0;
+  right: 18px;
   transform: translateX(-37%);
   width: 40px;
   height: 40px;
