@@ -63,11 +63,12 @@ h2.header-2 {
 }
 
 img.arrows {
+  min-height: inherit;
   width: 100%;
 }
 
 .large-slider-bot-section span {
-  font-size: 11px;
+  font-size: 8px;
 }
 
 .artist-name-list li {
@@ -236,6 +237,9 @@ h2.category-heading {
     height: 50px;
     width: 25%;
   }
+  .large-slider-bot-section span {
+    font-size: 10px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -248,6 +252,10 @@ h2.category-heading {
     font-size: 22px;
     margin-bottom: 10px;
     padding-top: 10px;
+  }
+
+  .large-slider-bot-section span {
+    font-size: 12px;
   }
 
   .search-bar li {

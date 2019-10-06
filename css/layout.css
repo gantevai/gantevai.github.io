@@ -5,7 +5,7 @@
 
 .aligned-wrapper {
   width: 100%;
-  padding: 0 2.5%;
+  padding: 0 18px;
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
@@ -45,7 +45,7 @@
 
 .clear-fix:before,
 .clear-fix:after {
-  content: "";
+  content: '';
   display: table;
 }
 .clear-fix:after {
@@ -67,23 +67,26 @@
   margin-bottom: 15px;
 }
 
-.left-arrow,
+.left-arrow {
+  width: 8.547%;
+  min-height: 160px;
+  float: left;
+}
 .right-arrow {
   width: 8.547%;
   float: left;
-  position: relative;
+  min-height: 160px;
 }
 .large-slider-image {
   float: left;
   width: 82.906%;
+  overflow: hidden;
   background-color: #ff9b9b;
-}
-.large-slider-image img {
-  width: 100%;
 }
 
 .large-slider-top-section {
   float: left;
+  width: 100%;
 }
 
 .large-slider-bot-section {
@@ -91,12 +94,15 @@
   display: none;
 }
 .large-slider-bot-section span {
-  font-size: 12px;
+  font-size: 7px;
 }
 
 .slider-index-left {
   width: 58.376%;
   float: left;
+}
+span.slider-index {
+  cursor: pointer;
 }
 
 .previous-image {
@@ -110,7 +116,8 @@
   border-bottom: 2px solid #ffb79b;
 }
 .next-image {
-  width: 14%;
+  width: 16%;
+  text-align: right;
   float: right;
   border-bottom: 2px solid #ffb79b;
 }
@@ -127,11 +134,12 @@
   top: -16%;
   left: 50%;
   background-color: #ffb79b;
-  transform: translateX(-66%);
+  transform: translateX(-50%);
   width: 17%;
   max-width: 52px;
   text-align: center;
   height: 16px;
+  z-index: 1;
 }
 
 .instagram-label span {
@@ -154,9 +162,9 @@
   float: left;
   width: 25%;
 }
-.small-image img {
+/* .small-image img {
   width: 100%;
-}
+} */
 
 .small-right-arrow {
   width: 3.077%;
@@ -493,10 +501,14 @@ a.category-list {
 }
 
 .post-slider {
+  width: 100%;
   float: left;
   background-color: white;
   margin-bottom: 30px;
   padding: 20px 20px 0 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .post-slider-heading,
@@ -540,7 +552,7 @@ a.category-list {
   position: absolute;
   background: url(../images/up-arrow.png);
   top: 2px;
-  right: 18px;
+  right: 3px;
   transform: translateX(-37%);
   width: 40px;
   height: 40px;
@@ -647,6 +659,10 @@ a.category-list {
   .large-slider {
     margin-bottom: 45px;
   }
+  .large-slider-bot-section {
+    display: block;
+    width: 100%;
+  }
 
   .small-slider {
     margin-bottom: 40px;
@@ -747,14 +763,6 @@ a.category-list {
 
   .large-slider {
     margin-bottom: 45px;
-  }
-  .large-slider-bot-section {
-    display: block;
-    width: 100%;
-  }
-
-  .large-slider-bot-section span {
-    font-size: 12px;
   }
 
   .small-slider {
