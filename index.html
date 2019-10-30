@@ -1,8 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <title>LifeStyle</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"><title>LifeStyle</title>
     <link
       href="https://fonts.googleapis.com/css?family=Raleway:600&display=swap"
       rel="stylesheet"
@@ -17,18 +18,16 @@
 
   <body>
     <div class="main-wrapper">
-      <div class="header">
+      <div class="header" id="header">
         <div class="aligned-wrapper clear-fix">
           <ul class="search-bar">
             <li>
-              <a href=""><i class="fas fa-search"></i></a>
+              <a href="#" title="search"><i class="fas fa-search"></i></a>
             </li>
-            <li><a href="">SUBMIT STORY</a></li>
+            <li><a href="#" title="submit story">SUBMIT STORY</a></li>
           </ul>
+          <button class="burger-menu" id="burgerMenu" title="menu"><a href="#" title="menu"><i class="fas fa-bars"></i></a></button>
           <div class="nav-menu-bar">
-            <!-- <a href="#" class="burger-menu">
-              <img src="images/burger-menu.png" alt="">
-            </a> -->
             <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#">POST TYPES</a></li>
@@ -42,32 +41,41 @@
           
           <ul class="nav-social-bar">
             <li>
-              <a href="#"><i class="fas fa-rss"></i></a>
+              <a href="#" title="RSS"><i class="fas fa-rss"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
             </li>
             <li>
-              <a href="#"><i class="fab fa-tumblr"></i></a>
+              <a href="#" title="tumblr"><i class="fab fa-tumblr"></i></a>
             </li>
             <li>
-              <a href="#"
-                ><i class="fab fa-google-plus-g"></i></a>
+              <a href="#" title="google plus"><i class="fab fa-google-plus-g"></i></a>
             </li>
             <li>
-              <a href="#"
-                ><i class="fab fa-facebook-f"></i></a>
+              <a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a>
             </li>
           </ul>
         </div>
           <div class="horizontal-line">
           <!-- for grey line -->
         </div>
+            <ul class="nav-menu-bar-mobile" id="navMenuMobile">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">POST TYPES</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">TRAVEL</a></li>
+            <li><a href="#">FASHION</a></li>
+            <li><a href="#">MUSIC</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
       </div>
         
      
         <div class="logo-wrapper">
-        <img src="images/logo.png" class="logo" alt=""/>
+          <a href="#" title="Logo">
+            <img src="images/logo.png" class="logo" alt=""/>
+          </a>
         </div>
 
 
@@ -75,16 +83,16 @@
         <div class="aligned-wrapper clear-fix">
           <div class="large-slider">
             <div class="large-slider-top-section">
-              <div class="left-arrow" id="leftBtn"><img src="images/left-arrow.png" class="arrows" alt=""/></div>
+              <div class="left-arrow" id="leftBtn"><img src="images/left-arrow.png" class="arrows" title="Previous image" alt="left-arrow"/></div>
               <div class="large-slider-image container">
                 <div class="wrapper">
-                  <img src="images/1000x488(3).jpg" class="slider-image" alt="">
-                <img src="images/1000x488(2).jpg" class="slider-image" alt="">
-               <img src="images/1000x488(3).jpg" class="slider-image" alt="">
-               <img src="images/1000x488(2).jpg" class="slider-image" alt="">
+                  <img src="images/1000x488(3).jpg" class="slider-image" alt="slider-image">
+                <img src="images/1000x488(2).jpg" class="slider-image" alt="slider-image">
+               <img src="images/1000x488(3).jpg" class="slider-image" alt="slider-image">
+               <img src="images/1000x488(2).jpg" class="slider-image" alt="slider-image">
               </div>
                 </div>
-              <div class="right-arrow" id="rightBtn"><img src="images/right-arrow.png" class="arrows" alt=""/></div>
+              <div class="right-arrow" id="rightBtn"><img src="images/right-arrow.png" class="arrows" title="Next image" alt="right-arrow"/></div>
             </div>
             <div class="large-slider-bot-section">
                 <div class="slider-index-left">
@@ -106,25 +114,25 @@
           </div>
           <div class="small-slider">
             <div class="instagram-label"><span>INSTAGRAM</span></div>
-            <div class="small-left-arrow left-arrow"><img src="images/small-slider-left-arrow.png" class="arrows" alt=""/></div>
+            <div class="small-left-arrow left-arrow"><img src="images/small-slider-left-arrow.png" id="smallSliderLeft" class="arrows small-slider-left-arrow" title="Previous image" alt="left-arrow"/></div>
             <div class="four-small-images container">
               <div class="wrapper">
                 <img src="images/small-slider-post-1.png" class="small-image slider-image" alt=""/>
-              <img src="images/295x240(2).jpg" class="small-image slider-image" alt=""/>
-              <img src="images/295x240(3).jpg" class="small-image slider-image" alt=""/>
-              <img src="images/370x230(2).jpg" class="small-image slider-image" alt=""/>
-              <img src="images/370x230(3).jpg" class="small-image slider-image" alt=""/>
-              <img src="images/425x240(3).jpg" class="small-image slider-image" alt=""/>
-              <img src="images/425x240.jpg" class="small-image slider-image" alt=""/>
-              <img src="images/425x240(2).jpg" class="small-image slider-image" alt=""/>
+              <img src="images/295x240(2).jpg" class="small-image slider-image" alt="slider-image"/>
+              <img src="images/295x240(3).jpg" class="small-image slider-image" alt="slider-image"/>
+              <img src="images/370x230(2).jpg" class="small-image slider-image" alt="slider-image"/>
+              <img src="images/370x230(3).jpg" class="small-image slider-image" alt="slider-image"/>
+              <img src="images/275x202(2).png" class="small-image slider-image" alt="slider-image"/>
+              <img src="images/275x202(1).png" class="small-image slider-image" alt="slider-image"/>
+              <img src="images/275x202.png" class="small-image slider-image" alt=""/>
               </div>
             </div>
-            <div class="small-right-arrow right-arrow"><img src="images/small-slider-right-arrow.png" class="arrows" alt=""/></div>
+            <div class="small-right-arrow right-arrow"><img src="images/small-slider-right-arrow.png" id="smallSliderRight"class="arrows small-slider-right-arrow" title="Next image" alt="right-arrow"/></div>
           </div>
           <div class="col-2-right">
             <div class="column-left">
               <div class="recent-post-heading">
-                <h2 class="header-2">RECENT POSTS</h2>
+                <a href="#"><h2 class="header-2">RECENT POSTS</h2></a>
                 <div class="grey-line-div">
                   <div class="pink-line-div"></div>
                 </div>
@@ -132,17 +140,17 @@
               <div class="recent-post-body">
                 <div class="large-recent-post">
                   <div class="recent-post-image">
-                    <div class="camera-icon"><a href="#"><img src="images/camera-icon.png" alt=""></a></div>
+                    <div class="camera-icon"><a href="#"><img src="images/camera-icon.png" title="cam" alt="camera-icon"></a></div>
                     <div class="image-wrapper">
-                      <img src="images/1000x488.jpg" alt="" />
+                      <img src="images/1000x488.jpg" alt="post-image" />
                     </div>
                   </div>
                   <div class="recent-post-description">
-                    <h1 class="header-1">EXPLORING SAN FRANSISCO'S CUISINE</h1>
+                    <a href="#" title="post heading"><h1 class="header-1">EXPLORING SAN FRANSISCO'S CUISINE</h1></a>
                     <ul class="artist-name-list">
                       <li>
                         <span class="artist-name"
-                          >BY <a href="#">: JHONE DOE</a></span
+                          >BY <a href="#" title="Artist">: JHONE DOE</a></span
                         >
                       </li>
                       <li>
@@ -161,31 +169,32 @@
                     </div>
 
                     <div class="continue-reading">
-                      <input
-                        type="button"
-                        value="CONTINUE READING"
+                      <a href="#" title="continue reading">
+                        <button
                         class="continue-reading-btn"
-                      />
+                      >CONTINUE READING</button>
+                      </a>
+                      
                       <div class="icon-right">
                         <ul class="recent-post-social-bar">
                           <li>
-                            <a href="#"
+                            <a href="#" title="facebook"
                               ><i class="fab fa-facebook-f"></i></a>
                           </li>
                           <li>
-                            <a href="#"
+                            <a href="#" title="twitter"
                               ><i class="fab fa-twitter"></i></a>
                           </li>
                           <li>
-                            <a href="#"
+                            <a href="#" title="tumblr"
                               ><i class="fab fa-tumblr"></i></a>
                           </li>
                           <li>
-                            <a href="#"
+                            <a href="#" title="google plus"
                               ><i class="fab fa-google-plus-g"></i></a>
                           </li>
                         </ul>
-                        <div class="share-icon"><a href="#"><img src="images/share-icon.png" alt=""></a></div>
+                        <a href="#" title="share"><div class="share-icon"></div></a>
                       </div>
                     </div>
                   </div>
@@ -194,19 +203,19 @@
                 <div class="small-recent-posts">
                   <div class="small-recent-post-left">
                     <div class="small-recent-post-image">
-                      <div class="camera-icon"><a href="#"><img src="images/camera-icon.png" alt=""></a></div>
+                      <div class="camera-icon"><a href="#" title="cam"><img src="images/camera-icon.png" alt="camera-icon"></a></div>
                       <div class="image-wrapper">
-                        <img src="images/870x370.jpg" alt="" />
+                        <img src="images/870x370.jpg" alt="post-image" />
                       </div>
                     </div>
                     <div class="recent-post-description">
-                      <h1 class="header-1">
+                      <a href="#" title="post-heading"><h1 class="header-1">
                         GIRL FASHION LIFESTYLE
-                      </h1>
+                      </h1></a>
                       <ul class="artist-name-list">
                         <li>
                           <span class="artist-name"
-                            >BY <a href="#">JHONE DOE</a></span
+                            >BY <a href="#"  title="Artist">JHONE DOE</a></span
                           >
                         </li>
                         <li>
@@ -233,42 +242,42 @@
                         <div class="small-post-icon-right">
                           <ul class="recent-post-social-bar">
                             <li>
-                              <a href="#"
+                              <a href="#" title="facebook"
                                 ><i class="fab fa-facebook-f"></i></a>
                             </li>
                             <li>
-                              <a href="#"
+                              <a href="#" title="twitter"
                                 ><i class="fab fa-twitter"></i></a>
                             </li>
                             <li>
-                              <a href="#"
+                              <a href="#" title="tumblr"
                                 ><i class="fab fa-tumblr"></i></a>
                             </li>
                             <li>
-                              <a href="#"
+                              <a href="#" title="google plus"
                                 ><i class="fab fa-google-plus-g"></i></a>
                             </li>
                           </ul>
-                          <div class="share-icon"><a href="#"><img src="images/share-icon.png" alt=""></a></div>
+                          <a href="#" title="share"><div class="share-icon"></div></a>
                         </div>
                       </div>
                     </div>
                   </div>
                  <div class="small-recent-post-right">
                     <div class="small-recent-post-image">
-                      <div class="camera-icon"><a href="#"><img src="images/camera-icon.png" alt=""></a></div>
+                      <div class="camera-icon"><a href="#" title="cam"><img src="images/camera-icon.png" alt="camera-icon"></a></div>
                       <div class="image-wrapper">
-                        <img src="images/870x370(2).jpg" alt="" />
+                        <img src="images/870x370(2).jpg" alt="post-image" />
                       </div>
                     </div>
                     <div class="recent-post-description">
-                      <h1 class="header-1">
+                      <a href="#" title="post heading"><h1 class="header-1">
                         GIRL FASHION LIFESTYLE
-                      </h1>
+                      </h1></a>
                       <ul class="artist-name-list">
                         <li>
                           <span class="artist-name"
-                            >BY <a href="#">JHONE DOE</a></span
+                            >BY <a href="#" title="Artist">JHONE DOE</a></span
                           >
                         </li>
                         <li>
@@ -295,24 +304,23 @@
                         <div class="small-post-icon-right">
                           <ul class="recent-post-social-bar">
                             <li>
-                              <a href="#"
+                              <a href="#" title="facebook"
                                 ><i class="fab fa-facebook-f"></i></a>
                             </li>
                             <li>
-                              <a href="#"
+                              <a href="#" title="twitter"
                                 ><i class="fab fa-twitter"></i></a>
                             </li>
                             <li>
-                              <a href="#"
+                              <a href="#" title="tumblr"
                                 ><i class="fab fa-tumblr"></i></a>
                             </li>
                             <li>
-                              <a href="#"
+                              <a href="#" title="google plus"
                                 ><i class="fab fa-google-plus-g"></i></a>
                             </li>
                           </ul>
-                          <div class="share-icon"><a href="#"><img src="images/share-icon.png" alt=""></a></div>
-                        </div>
+                          <a href="#" title="share"><div class="share-icon"></div></a></div>
                       </div>
                     </div>
                 </div>
@@ -322,17 +330,17 @@
                       <div class="medium-recent-post-image">
                         <div class="camera-icon"></div>
                         <div class="image-wrapper">
-                          <img src="images/425x240.jpg" alt="" />
+                          <img src="images/425x240.jpg" alt="post-image" />
                         </div>
                       </div>
                       <div class="medium-recent-post-description">
-                        <h1 class="header-1">
+                        <a href="#" title="post-heading"><h1 class="header-1">
                           EXPLORING SAN FRANSISCO'S CUISINE
-                        </h1>
+                        </h1></a>
                         <ul class="artist-name-list">
                           <li>
                             <span class="artist-name"
-                              >BY <a href="#">JHONE DOE</a></span
+                              >BY <a href="#" title="Artist">JHONE DOE</a></span
                             >
                           </li>
                           <li>
@@ -359,24 +367,23 @@
                           <div class="medium-post-icon-right">
                             <ul class="recent-post-social-bar">
                               <li>
-                                <a href="#"
+                                <a href="#" title="facebook"
                                   ><i class="fab fa-facebook-f"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="twitter"
                                   ><i class="fab fa-twitter"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="tumblr"
                                   ><i class="fab fa-tumblr"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="google plus"
                                   ><i class="fab fa-google-plus-g"></i></a>
                               </li>
                             </ul>
-                            <div class="share-icon"><a href="#"><img src="images/share-icon.png" alt=""></a></div>
-                          </div>
+                            <a href="#"  title="share"><div class="share-icon"></div></a></div>
                         </div>
                       </div>
                 </div>
@@ -384,17 +391,17 @@
                       <div class="medium-recent-post-image">
                         <div class="camera-icon"></div>
                         <div class="image-wrapper">
-                          <img src="images/425x240(3).jpg" alt="" />
+                          <img src="images/425x240(3).jpg" alt="post-image" />
                         </div>
                       </div>
                       <div class="medium-recent-post-description">
-                        <h1 class="header-1">
+                        <a href="#" title="post heading"><h1 class="header-1">
                           EXPLORING SAN FRANSISCO'S CUISINE
-                        </h1>
+                        </h1></a>
                         <ul class="artist-name-list">
                           <li>
                             <span class="artist-name"
-                              >BY <a href="#">JHONE DOE</a></span
+                              >BY <a href="#" title="Artist">JHONE DOE</a></span
                             >
                           </li>
                           <li>
@@ -421,24 +428,23 @@
                           <div class="medium-post-icon-right">
                             <ul class="recent-post-social-bar">
                               <li>
-                                <a href="#"
+                                <a href="#" title="faceboook"
                                   ><i class="fab fa-facebook-f"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="twitter"
                                   ><i class="fab fa-twitter"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="tumblr"
                                   ><i class="fab fa-tumblr"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#"  title="google plus"
                                   ><i class="fab fa-google-plus-g"></i></a>
                               </li>
                             </ul>
-                            <div class="share-icon"><a href="#"><img src="images/share-icon.png" alt=""></a></div>
-                          </div>
+                            <a href="#" title="share"><div class="share-icon"></div></a></div>
                         </div>
                       </div>
                 </div>
@@ -446,17 +452,17 @@
                       <div class="medium-recent-post-image">
                         <div class="camera-icon"></div>
                         <div class="image-wrapper">
-                          <img src="images/425x240(2).jpg" alt="" />
+                          <img src="images/425x240(2).jpg" alt="post-image" />
                         </div>
                       </div>
                       <div class="medium-recent-post-description">
-                        <h1 class="header-1">
+                        <a href="#" title="post heading"><h1 class="header-1">
                           EXPLORING SAN FRANSISCO'S CUISINE
-                        </h1>
+                        </h1></a>
                         <ul class="artist-name-list">
                           <li>
                             <span class="artist-name"
-                              >BY <a href="#">JHONE DOE</a></span
+                              >BY <a href="#" title="Artist">JHONE DOE</a></span
                             >
                           </li>
                           <li>
@@ -483,24 +489,23 @@
                           <div class="medium-post-icon-right">
                             <ul class="recent-post-social-bar">
                               <li>
-                                <a href="#"
+                                <a href="#" title="facebook"
                                   ><i class="fab fa-facebook-f"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="twitter"
                                   ><i class="fab fa-twitter"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="tumblr"
                                   ><i class="fab fa-tumblr"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="google plus"
                                   ><i class="fab fa-google-plus-g"></i></a>
                               </li>
                             </ul>
-                            <div class="share-icon"><a href="#"><img src="images/share-icon.png" alt=""></a></div>
-                          </div>
+                            <a href="#" title="share"><div class="share-icon"></div></a></div>
                         </div>
                       </div>
                 </div>
@@ -508,17 +513,17 @@
                       <div class="medium-recent-post-image">
                         <div class="camera-icon"></div>
                         <div class="image-wrapper">
-                          <img src="images/1000x488(3).jpg" alt="" />
+                          <img src="images/425x240.jpg" alt="post-image" />
                         </div>
                       </div>
                       <div class="medium-recent-post-description">
-                        <h1 class="header-1">
+                        <a href="#" title="post heading"><h1 class="header-1">
                           EXPLORING SAN FRANSISCO'S CUISINE
-                        </h1>
+                        </h1></a>
                         <ul class="artist-name-list">
                           <li>
                             <span class="artist-name"
-                              >BY <a href="#">JHONE DOE</a></span
+                              >BY <a href="#" title="Artist">JHONE DOE</a></span
                             >
                           </li>
                           <li>
@@ -545,24 +550,23 @@
                           <div class="medium-post-icon-right">
                             <ul class="recent-post-social-bar">
                               <li>
-                                <a href="#"
+                                <a href="#" title="facebook"
                                   ><i class="fab fa-facebook-f"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="twitter"
                                   ><i class="fab fa-twitter"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="tumblr"
                                   ><i class="fab fa-tumblr"></i></a>
                               </li>
                               <li>
-                                <a href="#"
+                                <a href="#" title="google plus"
                                   ><i class="fab fa-google-plus-g"></i></a>
                               </li>
                             </ul>
-                            <div class="share-icon"><a href="#"><img src="images/share-icon.png" alt=""></a></div>
-                          </div>
+                            <a href="#" title="share"><div class="share-icon"></div></a></div>
                         </div>
                       </div>
                 </div>
@@ -573,7 +577,7 @@
 
             <div class="column-right">
               <div class="side-bar-heading">
-                <h2 class="header-2">SIDE BAR</h2>
+                <a href="#" title="Side Bar"><h2 class="header-2">SIDE BAR</h2></a>
                 <div class="grey-line-div">
                   <div class="side-bar-pink-line-div"></div>
                 </div>
@@ -582,21 +586,22 @@
                 <div class="search-bar-body">
                   <form>
                     <input type="text" class="search-field"/>
-                    <input type="button" class="search-btn"></input>
+                    <!-- <input type="button" class="search-btn"></input> -->
+                    <button class="search-btn" title="Search"></button>
                     
                   </form>
                 </div>
                 <div class="popular-post">
                   <div class="popular-post-heading">
-                    <h1 class="header-1">POPULAR POSTS</h1>
+                   <a href="#" title="Heading"><h1 class="header-1">POPULAR POSTS</h1></a>
                   <div class="grey-line-div-margin-bottom-10">
                   <div class="side-bar-pink-line-div"></div>
                 </div></div>
                   <div class="popular-post-body">
                     <div class="popular-post-list">
-                      <div class="popular-post-image"><img src="images/70x50.jpg" alt=""/></div>
+                      <div class="popular-post-image"><img src="images/70x50.jpg" alt="post-image"/></div>
                       <div class="popular-post-description">
-                        <div class="popular-post-name"><span>BEAUTY FASHION</span></div>
+                        <div class="popular-post-name"><a href="#" title="Post Heading"><span>BEAUTY FASHION</span></a></div>
                         <div class="popular-post-date"><span class="artist-name">SEP,26 2015</span></div>
                       </div>
                     </div>
@@ -604,9 +609,9 @@
                          <!-- for grey line -->
                     </div>
                     <div class="popular-post-list">
-                      <div class="popular-post-image"><img src="images/70x50(3).jpg" alt=""/></div>
+                      <div class="popular-post-image"><img src="images/70x50(3).jpg" alt="post-image"/></div>
                       <div class="popular-post-description">
-                        <div class="popular-post-name"><span>BEAUTY FASHION</span></div>
+                        <div class="popular-post-name"><a href="#" title="Post Heading"><span>BEAUTY FASHION</span></a></div>
                         <div class="popular-post-date"><span class="artist-name">SEP,26 2015</span></div>
                       </div>
                     </div>
@@ -614,9 +619,9 @@
                          <!-- for grey line -->
                     </div>
                     <div class="popular-post-list">
-                      <div class="popular-post-image"><img src="images/70x50(2).jpg" alt=""/></div>
+                      <div class="popular-post-image"><img src="images/70x50(2).jpg" alt="post-image"/></div>
                       <div class="popular-post-description">
-                        <div class="popular-post-name"><span>BEAUTY FASHION</span></div>
+                        <div class="popular-post-name"><a href="#" title="Post Heading"><span>BEAUTY FASHION</span></a></div>
                         <div class="popular-post-date"><span class="artist-name">SEP,26 2015</span></div>
                       </div>
                     </div>
@@ -624,9 +629,9 @@
                          <!-- for grey line -->
                     </div>
                     <div class="popular-post-list">
-                      <div class="popular-post-image"><img src="images/70x50.jpg" alt=""/></div>
+                      <div class="popular-post-image"><img src="images/70x50.jpg" alt="post-image"/></div>
                       <div class="popular-post-description">
-                        <div class="popular-post-name"><span>BEAUTY FASHION</span></div>
+                        <div class="popular-post-name"><a href="#" title="Post Heading"><span>BEAUTY FASHION</span></a></div>
                         <div class="popular-post-date"><span class="artist-name">SEP,26 2015</span></div>
                       </div>
                     </div>
@@ -635,101 +640,101 @@
                 </div>
                 
                 <div class="pic-250x250">
-                  <img src="images/250x250.jpg" alt=""/>
+                  <img src="images/250x250.jpg" alt="post-image"/>
                 </div>
                 <div class="categories">
                   <div class="categories-heading">
-                    <h1 class="header-1">CATEGORIES</h1>
+                    <a href="#" title="Heading"><h1 class="header-1">CATEGORIES</h1></a>
                   <div class="grey-line-div-margin-bottom-10">
                   <div class="side-bar-pink-line-div"></div>
                 </div></div>
                   <div class="categories-body">
-                    <h2 class="category-heading"><a href="#" class="category-list">CHARITY (<span>28</span>)</a></h2>
+                    <a href="#" title="Category"><h2 class="category-heading">CHARITY (<span>28</span>)</h2></a>
                     <div class="horizontal-line"></div>
-                    <h2 class="category-heading"><a href="#" class="category-list">IMAGES (<span>95</span>)</a></h2>
+                    <a href="#" title="Category"><h2 class="category-heading">IMAGES (<span>95</span>)</h2></a>
                     <div class="horizontal-line"></div>
-                    <h2 class="category-heading"><a href="#" class="category-list">LIFE STYLE (<span>65</span>)</a></h2>
+                    <a href="#" title="Category"><h2 class="category-heading">LIFE STYLE (<span>65</span>)</h2></a>
                     <div class="horizontal-line"></div>
-                    <h2 class="category-heading"><a href="#" class="category-list">MUSIC TOP (<span>49</span>)</a></h2>
+                    <a href="#" title="Category"><h2 class="category-heading">MUSIC TOP (<span>49</span>)</h2></a>
                     <div class="horizontal-line"></div>
-                    <h2 class="category-heading"><a href="#" class="category-list">TRAVEL (<span>98</span>)</a></h2>
+                    <a href="#" title="Category"><h2 class="category-heading">TRAVEL (<span>98</span>)</h2></a>
                     <div class="horizontal-line"></div>
-                    <h2 class="category-heading"><a href="#" class="category-list">WEB DESIGN (<span>25</span>)</a></h2>
+                    <a href="#" title="Category"><h2 class="category-heading">WEB DESIGN (<span>25</span>)</h2></a>
                   </div>
                 </div>
                 
                 <div class="instagram">
                   <div class="instagram-heading">
-                    <h1 class="header-1">INSTAGRAM</h1>
+                    <a href="#" title="Heading"><h1 class="header-1">INSTAGRAM</h1></a>
                     <div class="grey-line-div-margin-bottom-10">
                       <div class="side-bar-pink-line-div"></div>
                     </div>
                   </div>
                   <div class="instagram-body">
                     <div class="row-1">
-                      <img src="images/insta1.JPG" alt="" class="insta-image1"/>
-                      <img src="images/insta2.JPG" alt="" class="insta-image2"/>
-                      <img src="images/insta3.JPG" alt="" class="insta-image3"/>
+                      <img src="images/insta1.JPG" alt="instagram-images" class="insta-image1"/>
+                      <img src="images/insta2.JPG" alt="instagram-images" class="insta-image2"/>
+                      <img src="images/insta3.JPG" alt="instagram-images" class="insta-image3"/>
                     
                     </div>
                     <div class="row-2">
-                      <img src="images/insta4.JPG" alt="" class="insta-image4"/>
-                      <img src="images/insta5.JPG" alt="" class="insta-image5"/>
-                      <img src="images/insta6.JPG" alt="" class="insta-image6"/>
+                      <img src="images/insta4.JPG" alt="instagram-images" class="insta-image4"/>
+                      <img src="images/insta5.JPG" alt="instagram-images" class="insta-image5"/>
+                      <img src="images/insta6.JPG" alt="instagram-images" class="insta-image6"/>
                     
                     </div>
                     <div class="row-3">
-                      <img src="images/insta7.JPG" alt="" class="insta-image7"/>
-                      <img src="images/insta8.JPG" alt="" class="insta-image8"/>
-                      <img src="images/insta9.JPG" alt="" class="insta-image9"/>
+                      <img src="images/insta7.JPG" alt="instagram-images" class="insta-image7"/>
+                      <img src="images/insta8.JPG" alt="instagram-images" class="insta-image8"/>
+                      <img src="images/insta9.JPG" alt="instagram-images" class="insta-image9"/>
                     </div>
                     </div>
                 </div>
 
                 <div class="social-media">
                   <div class="social-media-heading">
-                    <h1 class="header-1">SOCIAL MEDIA</h1>
+                    <a href="#" title="Heading"><h1 class="header-1">SOCIAL MEDIA</h1></a>
                   <div class="grey-line-div-margin-bottom-10">
                   <div class="side-bar-pink-line-div"></div>
                 </div></div>
                 <div class="social-media-body">
                         <ul class="recent-post-social-bar">
                           <li>
-                            <a href="#"
+                            <a href="#" title="facebook"
                               ><i class="fab fa-facebook-f"></i></a>
                           </li>
                           <li>
-                            <a href="#"
+                            <a href="#" title="twitter"
                               ><i class="fab fa-twitter"></i></a>
                           </li>
                           <li>
-                            <a href="#"
+                            <a href="#" title="tumblr"
                               ><i class="fab fa-tumblr"></i></a>
                           </li>
                           <li>
-                            <a href="#"
+                            <a href="#" title="google plus"
                               ><i class="fab fa-google-plus-g"></i></a>
                           </li>
                         </ul>
-                        <div class="social-media-share-icon"><a href="#"><img src="images/share-icon.png" alt=""></a></div>
+                        <div class="social-media-share-icon"><a href="#" title="share"><img src="images/share-icon.png" alt=""></a></div>
                 </div>
                 </div>
 
                 <div class="post-slider">
                   <div class="post-slider-heading">
-                    <h1 class="header-1">POST SLIDER</h1>
+                    <a href="#" title="Heading"><h1 class="header-1">POST SLIDER</h1></a>
                     <div class="grey-line-div-margin-bottom-10">
                       <div class="side-bar-pink-line-div"></div>
                     </div>
                   </div>
                   <div class="post-slider-body container">
                     <div class="wrapper">
-                    <img src="images/870x370.jpg" class="slider-image" alt=""/>
-                    <img src="images/1000x488(3).jpg"  class="slider-image" alt=""/>
-                    <img src="images/1000x488.jpg"  class="slider-image" alt=""/>
+                    <img src="images/post-slider-1.png" class="slider-image" alt="post-slider-image"/>
+                    <img src="images/post-slider-2.png"  class="slider-image" alt="post-slider-image"/>
+                    <img src="images/post-slider-3.png"  class="slider-image" alt="post-slider-image"/>
                     </div>
-                    <div class="left-arrow" ><div class="post-slider-left"></div></div>
-                    <div class="right-arrow" ><div class="post-slider-right"></div></div>
+                    <div class="left-arrow post-slider-left-arrow" ><img src="images/post-slider-left-arrow.png" class="arrows" id="postSliderLeft" alt="left-arrow"  title="Previous image"></div>
+                    <div class="right-arrow post-slider-right-arrow" ><img src="images/post-slider-right-arrow.png" class="arrows" id="postSliderRight" alt="right-arrow" title="Next image"></div>
                   </div>
                 </div>
 
@@ -744,11 +749,11 @@
     <div class="footer">
         <div class="footer-pink-line-div"></div>
         <div class="aligned-wrapper clear-fix">
-          <div class="footer-up-arrow"></div>
+          <a href="#header"title="Go to Top"><div class="footer-up-arrow"></div></a>
           <div class="footer-left">
             <div class="footer-l-left">
               <div class="footer-about-me-heading">
-                <h1 class="header-1">ABOUT ME</h1>
+                <a href="#" title="Heading"><h1 class="header-1">ABOUT ME</h1></a>
                     <div class="grey-line-div-margin-bottom-10">
                       <div class="footer-aboutme-pink-line-div">
                       
@@ -758,22 +763,21 @@
                           <p>Hi ,i am Nathaliya Jhione m massa have been a great idea of iSuspendisse time have great idea in orci enim.</p>
                       </div>
                     <div class="aboutme-image-wrapper">
-                      <img src="images/recent-post-1.png" class="aboutme-image" alt=""/>
-                      <img src="images/aboutme-signature.png" class="aboutme-signature" alt=""/>
+                      <img src="images/recent-post-1.png" class="aboutme-image" alt="about me image"/>
+                      <img src="images/aboutme-signature.png" class="aboutme-signature" alt="about me signature"/>
                     </div>
                     
-                      <input
+                      <button
                         type="button"
-                        value="READ MORE ABOUT ME"
                         class="read-more-about-me-btn"
-                      />
+                      > READ MORE ABOUT ME</button>
                     
               </div>
               <div class="footer-about-me-body"></div>
             </div>
             <div class="footer-r-right">
               <div class="footer-about-me-heading">
-                <h1 class="header-1">LATEST TWEET</h1>
+                <a href="#" title="Heading"><h1 class="header-1">LATEST TWEET</h1></a>
                     <div class="grey-line-div-margin-bottom-10">
                       <div class="footer-aboutme-pink-line-div">
                       
@@ -786,7 +790,7 @@
                           </p>
                     </div>
                     <div class="tweet-username">
-                      <a href="#">@Twitter@magicalrebekah</a>
+                      <a href="#" title="Twitter ID">@Twitter@magicalrebekah</a>
                     </div>
                     <div class="horizontal-line"></div>
                     </div>
@@ -797,20 +801,18 @@
                           </p>
                     </div>
                     <div class="tweet-username">
-                      <a href="#">@Twitter@magicalrebekah</a>
+                      <a href="#" title="Twitter ID">@Twitter@magicalrebekah</a>
                     </div>
                     <div class="horizontal-line"></div>
-                    </div>
-                    
-                    
-          
-              </div>
-            </div>
+                    </div>                 
+                            
+                  </div>
+                </div>
 
-          </div>
+              </div>
           <div class="footer-right">
             <div class="footer-right-heading">
-              <h1 class="header-1">SUBSCRIBED &amp; NEWSLETTER</h1>
+              <a href="#" title="Heading"><h1 class="header-1">SUBSCRIBED &amp; NEWSLETTER</h1></a>
                     <div class="grey-line-div-margin-bottom-10">
                       <div class="footer-aboutme-pink-line-div">
                       
@@ -826,24 +828,19 @@
                 <form>
                   <input type="text" class="name-field" placeholder="YOUR NAME"/>
                   <input type="text" class="email-field" placeholder="YOUR EMAIL ADDRESS"/>
-                  <input
+                  <button
                         type="button"
-                        value="SUBSCRIBE NOW"
                         class="read-more-about-me-btn"
-                      />
+                      >SUBSCRIBE NOW</button>
                 </form>
               </div>
             </div>
           </div>
         </div>
-        </div>
-
-
-                
-         
-          
+        </div>           
     </div>
 
       <script src="js/carousel.js"></script>
+      <script src="js/script.js"></script>
   </body>
 </html>

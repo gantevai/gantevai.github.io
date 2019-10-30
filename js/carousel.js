@@ -59,9 +59,8 @@
     };
 
     this.initializeDOMStyling = function() {
-      this.imageHeight = this.container.parentNode.getElementsByClassName(
-        'left-arrow'
-      )[0].offsetHeight;
+      const temp = this.container.parentNode.getElementsByClassName('left-arrow')[0];
+      this.imageHeight = temp.getElementsByTagName('img')[0].offsetHeight;
       this.imageWidth = this.container.offsetWidth / this.visibleImageCountAtATime;
       for (var i = 0; i < this.totalImage; i++) {
         this.image[i].style.height = this.imageHeight + 'px';
